@@ -89,7 +89,7 @@ function App() {
     } catch (error) {
       console.error(error);
       setStatus('error');
-      toast.error('Erro ao baixar música. Verifique o console.', { id: 'download' });
+      toast.error('Música não disponivel. Tente outro link.', { id: 'download' });
     } finally {
       setUrl('');
     }
